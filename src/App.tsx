@@ -40,10 +40,10 @@ const App = () => (
           <Route path="/alerts" element={<Layout><Alerts /></Layout>} />
           <Route path="*" element={<NotFound />} />
         </Routes>
-    </HashRouter>
-
+      </HashRouter>
     </TooltipProvider>
   </QueryClientProvider>
 );
 
 export default App;
+
